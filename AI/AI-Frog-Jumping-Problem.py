@@ -126,7 +126,7 @@ def main():
     #print('Missionaries/Cannibals Problem: ')
     #print(' Tuples are in this format --> [<Node (leftMissionaries, rightMissionaries, leftCannibals, rightCannibals, boatSide)>]')
 
-    f = open(r'C:\Users\richts22\Desktop\300\A2\L1.txt')
+    f = open(r'')
     lines = [i.strip() for i in f]
     g = {}
     for row_index,i in enumerate(lines):
