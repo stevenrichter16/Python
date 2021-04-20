@@ -29,11 +29,6 @@ sum1 = 0
 for i in df1_m2006:
     sum1 += i
 avg1 = sum1 / len(df1_m2006)
-avg1
-
-
-
-
 
 df2 = pd.read_csv("KLMWeather.csv")
 
@@ -53,11 +48,6 @@ sum2 = 0
 for i in df2_m2006:
     sum2 += i
 avg2 = sum2 / len(df2_m2006)
-avg2
-
-
-
-
 
 df3 = pd.read_csv("PQRWeather.csv")
 
@@ -79,11 +69,6 @@ sum3 = 0
 for i in df3_m2006:
     sum3 += i
 avg3 = sum3 / len(df3_m2006)
-avg3
-
-
-
-
 
 df4 = pd.read_csv("XYZWeather.txt",delimiter=';')
 
@@ -103,11 +88,6 @@ sum4 = 0
 for i in df4_m2006:
     sum4 += i
 avg4 = sum4 / len(df4_m2006)
-avg4
-
-
-
-
 
 # Problem 2
 
