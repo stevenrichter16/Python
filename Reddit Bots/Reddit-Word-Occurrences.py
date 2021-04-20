@@ -1,11 +1,9 @@
 # Reddit bot to count the occurences of a word or phrase, every 10 minutes #
 
-
 ''' Imports '''
 import praw
 import re
 import time
-
 
 ''' Functions '''
 def getWordCount(count):
