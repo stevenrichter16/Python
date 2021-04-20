@@ -42,9 +42,9 @@ def getWordCount(count):
 
 ''' Main '''
 # reddit api login
-reddit = praw.Reddit(client_id='LnkXTqw9dKuusQ',
-                     client_secret='wqzVx3hIaLvf_-7X9LTI63dNIh8',
-                     user_agent='test bot by ps_bot')
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='')
 
 
 # subreddit scope
