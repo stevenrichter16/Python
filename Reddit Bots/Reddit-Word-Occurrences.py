@@ -26,7 +26,7 @@ def getWordCount(count):
                 break
 
             # Search for word
-            if re.search(r"[Tt][Rr][Uu][Mm][Pp]", comment.body) is not None:
+            if re.search(r"[Hh][Ee][Ll][Oo]", comment.body) is not None:
                 count = count + 1
                 try:
                     print(count)
